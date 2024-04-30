@@ -40,7 +40,7 @@ document.querySelector('.button').onclick = (event) => {
         }
         else {
             b += key;
-            out.textContent = b;
+            out.textContent = b; 
         }
         console.log(a, b, sign);
         return;
